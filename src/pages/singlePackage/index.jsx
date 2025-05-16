@@ -2,7 +2,7 @@ import React from 'react';
 
 function Index(props) {
     return (
-        <div>Single pack</div>
+        <div className='bg-red-800'>Single pack</div>
     );
 }
 
