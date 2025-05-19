@@ -8,6 +8,7 @@ import Contact from "./pages/contact/index.jsx";
 import Navbar from "./components/navbar/index.jsx";
 import Footer from "./components/footer/index.jsx";
 
+
 function App() {
     return (
         <div style={{position: "relative"}}>
