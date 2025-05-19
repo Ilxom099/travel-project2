@@ -10,7 +10,7 @@ import Footer from "./components/footer/index.jsx";
 
 function App() {
     return (
-        <div>
+        <div style={{position: "relative"}}>
             <Navbar/>
             <Routes>
                 <Route path="/" element={<Home/>} />
