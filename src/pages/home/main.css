@@ -1,0 +1,9 @@
+.carusel{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.carusel > img{
+    scroll-snap-align: start;
+}
