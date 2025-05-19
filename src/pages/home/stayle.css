@@ -1,0 +1,73 @@
+
+.nav{
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.48);
+    z-index: 100;
+}
+.link{
+    text-decoration: none !important;
+    color: white;
+}.links{
+    text-decoration: none !important;
+    color: black;
+}
+.subcribe{
+    width: 100%;
+    height: 78vh;
+    background-image: url("../../../public/unsplash_TejFa7VW5e4_enhanced.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    overflow: hidden;
+    width: fit-content;
+    border: 1px solid #ddd;
+}
+
+.subscribe-container input {
+    border: none;
+    padding: 15px 20px;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    width: 250px;
+}
+
+.subscribe-container input::placeholder {
+    color: white;
+}
+
+.subscribe-container button {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0 35px 35px 0;
+}
+.header{
+    background-image: url("../../pages/home/foto/suitcase-travel-summer-holidays-vacation-travelers-luggage 1.png");
+    width: 100% ;
+    height:110vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
